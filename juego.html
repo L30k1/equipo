@@ -5,26 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juego</title>
 </head>
-<body>
-    <header>
-        <nav class="navbar">
-            <a href="#" class="logo"><img src="image" alt="logo"></a>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#jugar">Jugar</a></li>
-                <li><a href="#ayuda">Ayuda</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div id="game">
-            <div id="estadisticas">
-                <p>Jugador: <span id="name">"CLASE"</span></p>
-                <p>Vida: <span id="hp">/ 100 hp</span></p>
-                <p>Maná: <pan id="man"> de poder</pan></p>
+    <body>
+        <header>
+            <nav class="navbar">
+                <a href="#" class="logo"><img src="image" alt="logo"></a>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#jugar">Jugar</a></li>
+                    <li><a href="#ayuda">Ayuda</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="game">
+                <div id="imagenes">
+                    <div id="imagenjugador_div">
+                        <img src="IMAGEN_JUGADOR" alt="imagen_jugador" id="imagenjugador">
+                    </div>
+                    <div id="imagenmapa_div">
+                        <img src="IMAGEN_MAPA" alt="imagen_mapa" id="imagenmapa">
+                    </div>
+                    <div id="tiempo_div">
+                        <div>
+                            <p>Hora: <span id="hora"></span></p>
+                            <img src="TIEMPO" alt="imagen_tiempo" id="tiempo">
+                        </div>
+                    </div>
+                </div>
+                <div id="principal">
+                    <div id="text"></div>
+                    <div id="acciones">
+                        <button id="golpe_button">Golpe</button>
+                        <button id="golpefuerte_button">Golpe Fuerte</button>
+                        <button id="habilidad_button">Habilidad</button>
+                    </div> 
+                    <div id="estadisticas">
+                        <p>Vida: <span id="hp"></span></p>
+                        <p>Maná: <span id="mana"></span></p>
+                        <p>Adrenalina: <span id="adrenalina"></span></p>
+                    </div>
+                </div>
+                <div id="jugador">
+                    <p><span id="name"></span></p>
+                    <p>Raza: <span id="raza"></span></p>
+                    <p>Clase: <span id="clase"></span></p>
+                    <p>Nivel: <span id="nivel"></span></p>
+                    <p>Habilidad: <span id="habilidad"></span></p>
+                </div>
+                <div id="partida">
+                    <p>Oro: <span id="oro"></span></p>
+                    <p>Objetivo: <span id="objetivo"></span></p>
+                </div>
             </div>
-        </div>
-        
-    </main>
-</body>
+        </main>
+    </body>
 </html>
