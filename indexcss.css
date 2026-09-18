@@ -22,7 +22,7 @@ body{
 .logo{
     display: flex;
     justify-content: center;
-    align-items: center;
+
 }
 .logo img{
     height: auto;
@@ -44,7 +44,7 @@ body{
     margin-bottom: 10%;
     flex-direction: row-reverse;
     align-items: center;
-    width: 100%;
+
 }
 .logo_secundario{
     width: 40%;
